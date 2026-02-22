@@ -1,0 +1,3 @@
+## 2025-02-22 - Missing Reduced Motion Support in Animations
+**Learning:** The `src/utilities/animations.scss` file defined several keyframe animations and utility classes but did not include any `prefers-reduced-motion` logic. This means users with motion sensitivities would be exposed to potentially harmful animations.
+**Action:** When working on animation utilities, always check for `prefers-reduced-motion` and implement a strategy (e.g., instant duration or removing animation) to respect user preferences. Used `0.01ms` duration for finite animations to preserve end state and potential JS event listeners.
