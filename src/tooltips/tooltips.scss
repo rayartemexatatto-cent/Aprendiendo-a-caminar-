@@ -53,6 +53,17 @@
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .tooltipped:hover,
+  .tooltipped:active,
+  .tooltipped:focus {
+    &::before,
+    &::after {
+      animation: none;
+    }
+  }
+}
+
 .tooltipped-no-delay:hover,
 .tooltipped-no-delay:active,
 .tooltipped-no-delay:focus {
