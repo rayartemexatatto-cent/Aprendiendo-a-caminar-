@@ -194,3 +194,21 @@
     transform: rotate(360deg);
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-in,
+  .anim-fade-out,
+  .anim-fade-up,
+  .anim-fade-down,
+  .anim-grow-x,
+  .anim-shrink-x,
+  .anim-scale-in,
+  .anim-pulse,
+  .anim-pulse-in,
+  .anim-rotate,
+  .hover-grow,
+  .anim-hover-grow {
+    animation: none !important;
+    transition: none !important;
+  }
+}
