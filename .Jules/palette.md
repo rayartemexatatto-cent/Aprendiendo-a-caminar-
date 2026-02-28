@@ -1,0 +1,3 @@
+## 2024-05-14 - Animation utilities should respect prefers-reduced-motion
+**Learning:** Reusable CSS animation and transition utility classes must respect user accessibility preferences. If `prefers-reduced-motion: reduce` is set, motion should be eliminated by instantly snapping transitions and animations using `0s !important`.
+**Action:** Always verify that animation utilities or `.hover-grow` style classes have a `@media (prefers-reduced-motion: reduce)` fallback that sets animation/transition durations and delays to `0s !important`.
