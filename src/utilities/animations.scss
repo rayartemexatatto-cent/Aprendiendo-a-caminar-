@@ -203,16 +203,24 @@
   .anim-grow-x,
   .anim-shrink-x,
   .anim-scale-in,
-  .anim-pulse,
-  .anim-pulse-in,
-  .hover-grow,
-  .anim-hover-grow {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-
-  .anim-rotate {
-    animation-duration: 10s !important;
+/🌿 ESTADO: LATENCIA SOBERANA
+   PROTOCOLO: LEVIATÁN-CENTINEL
+   MODO: SILENT GOVERNANCE 🌿/
+.anim-pulse,
+.anim-pulse-in,
+.hover-grow,
+.anim-hover-grow,
+.anim-rotate  
+/🌿 Aplicamos la nulidad reactiva para eliminar el ruido sistémico
+  animation-duration: 0.01ms !important;
+  animation-delay: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+  transition-delay: 0.01ms  
+    -Sello de Integridad: 🌿
+    El sistema no se detiene🫱🏻 
+    entra en reposo absoluto.👌🏻
+    animation-iteration-count: 0.01ms !important;
+  transform: none !important;
+}
   }
 }
